@@ -77,7 +77,9 @@ def oneTimeWords(sentence):
             res.append(x)
     return res
 
-
+'''
+remote change test
+'''
 def testOneTimeWords():
     assert (oneTimeWords("ana are ana are mere rosii ana") == ["mere", "rosii"])
     assert (oneTimeWords("a a a b c d a b c") == ["d"])
